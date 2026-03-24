@@ -185,6 +185,11 @@
   },
   "active": "e78e16b35951851f",
   "lastOpenFiles": [
+    "draft-script-01.md",
+    "README.md",
+    "003.md",
+    "002.md",
+    "001.md",
     "gemini/gemini-image-generate.mjs",
     "gemini",
     "refer/003.md",
@@ -193,9 +198,8 @@
     "refer",
     "tts-plan-01.md",
     "scene-plan-01.md",
-    "001.md",
-    "draft-script-01.md",
     "script/draft-script-01.md",
+    "script/gemini-image-generate.mjs",
     "script",
     "AGENTS.md",
     "tts/scene-23-balance.txt",
@@ -203,7 +207,6 @@
     "tts/scene-24-cta.txt",
     "tts/scene-20-summary.txt",
     "tts/scene-03-intro.txt",
-    "tts/scene-10-vitamin-d-b.txt",
     "output/scene-25-ending.png",
     "output/supplement-thumbnail-test.png",
     "output/scene-23-balance.png",
@@ -218,7 +221,6 @@
     "progress.md",
     "findings.md",
     "CHATS.md",
-    "002.md",
     "node_modules/semver/README.md",
     "node_modules/web-streams-polyfill/README.md",
     "node_modules/protobufjs/README.md",
@@ -228,7 +230,6 @@
     "node_modules/protobufjs/ext/descriptor/README.md",
     "node_modules/protobufjs/ext/debug/README.md",
     "node_modules/agent-base/README.md",
-    "node_modules/jws/CHANGELOG.md",
-    "node_modules/extend/README.md"
+    "node_modules/jws/CHANGELOG.md"
   ]
 }
