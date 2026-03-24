@@ -353,3 +353,22 @@
 
 - 처리 추가 내용: `Organize project workflow assets and local skills` 커밋은 생성 완료.
 - 현재 상태: 첫 push는 원격 `master` 선행 변경 때문에 거절되었고, 원격 변경 반영 후 재푸시가 필요함.
+
+## 2026-03-24 추가 10
+
+- 사용자 요청: TTS 생성용 스크립트를 `tts_script` 폴더를 만들고 그 하위에 생성해달라고 요청.
+- 처리 내용: `tts_script/generate-tts.ps1`를 추가하고, `tts` 입력 텍스트를 `tts_audio`의 `.wav` 파일로 변환하는 구조를 만들었다.
+
+## 2026-03-24 추가 11
+
+- 처리 추가 내용: `scene-01-hook.txt` 기준으로 TTS 스크립트 테스트를 수행했고, `tts_audio/scene-01-hook.wav` 생성까지 확인했다.
+
+## 2026-03-24 추가 12
+
+- 사용자 요청: `tts` 전체를 한 번에 음성으로 생성해달라고 요청.
+- 처리 내용: `tts_script/generate-tts.ps1 -Overwrite` 실행으로 `tts_audio` 폴더에 총 13개의 `.wav` 파일 생성 완료.
+
+## 2026-03-24 추가 13
+
+- 사용자 요청: 영상 합성용 스크립트를 만들어달라고 요청.
+- 처리 내용: `video_script/assemble-video.ps1`를 추가했고, 현재 환경에 `ffmpeg`가 없어 실행 검증은 못 했지만 `ffmpeg` 설치 후 바로 사용할 수 있도록 구성했다.

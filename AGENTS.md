@@ -40,6 +40,8 @@
 
 - `AGENTS.md`, `tasks.md`, `findings.md`, `progress.md`, `CHATS.md`는 프로젝트 루트에 둡니다.
 - Gemini 관련 실행 스크립트 파일은 `gemini` 폴더 아래에 둡니다.
+- TTS 생성 스크립트 파일은 `tts_script` 폴더 아래에 둡니다.
+- 영상 조립 스크립트 파일은 `video_script` 폴더 아래에 둡니다.
 - 작성한 대본 파일은 `script` 폴더 아래에 둡니다.
 - `tasks.md`는 계획용, `findings.md`는 지속적으로 참고할 발견사항용, `progress.md`는 시간순 작업 이력용으로 사용합니다.
 - `CHATS.md`는 세션을 넘겨 이어봐야 하는 질문 맥락과 답변 이력을 기록하는 용도로 사용합니다.
@@ -54,6 +56,8 @@
 - 사용자와의 대화가 중요한 문맥을 포함하면 답변 후 `CHATS.md`를 최신 상태로 유지합니다.
 - 새로 작성하는 대본은 루트가 아니라 반드시 `script` 폴더 하위에 생성합니다.
 - Gemini 이미지 생성 스크립트는 `script`가 아니라 반드시 `gemini` 폴더 하위에 둡니다.
+- TTS 생성 스크립트는 반드시 `tts_script` 폴더 하위에 둡니다.
+- 영상 조립 스크립트는 반드시 `video_script` 폴더 하위에 둡니다.
 
 ## 이미지 생성 지침
 

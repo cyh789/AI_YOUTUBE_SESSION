@@ -525,3 +525,25 @@
 
 - 이번 로컬 커밋은 정상 생성됐지만, 첫 푸시는 원격 `master`가 앞서 있어 fast-forward 불가로 거절되었다.
 - 이 경우에는 원격 변경을 먼저 받아와 rebase한 뒤 다시 push하는 순서가 안전하다.
+
+### 2026-03-24 추가 발견 49
+
+- 현재 Windows 환경에는 한국어 음성 `Microsoft Heami Desktop`이 설치되어 있어 로컬 PowerShell TTS를 바로 사용할 수 있다.
+- 이에 따라 추가 API 없이도 `tts` 폴더의 텍스트를 `.wav` 파일로 변환하는 스크립트를 만들 수 있다.
+- TTS 스크립트 위치는 `tts_script`, 기본 음성 출력 위치는 `tts_audio`로 분리하는 편이 구조상 명확하다.
+
+### 2026-03-24 추가 발견 50
+
+- `tts_script/generate-tts.ps1`를 `scene-01-hook.txt` 한 파일 기준으로 테스트했고, `tts_audio/scene-01-hook.wav`가 정상 생성되었다.
+- 현재 PowerShell 터미널 출력에서는 한글이 일부 깨져 보일 수 있지만, 파일 생성 자체는 정상 동작한다.
+
+### 2026-03-24 추가 발견 51
+
+- `tts_script/generate-tts.ps1 -Overwrite`로 `tts` 폴더 전체를 한 번에 변환했고, `tts_audio` 폴더에 총 13개의 `.wav` 파일이 생성되었다.
+- 현재 기준으로 대표 장면 TTS 오디오는 일괄 생성이 가능한 상태다.
+
+### 2026-03-24 추가 발견 52
+
+- 현재 환경에는 `ffmpeg`와 `ffprobe`가 설치되어 있지 않아 영상 조립 스크립트의 실제 인코딩 실행까지는 검증할 수 없다.
+- 다만 장면 이미지와 오디오 파일 이름을 기준으로 기본 매핑을 잡은 PowerShell 조립 스크립트를 만들어두면, `ffmpeg` 설치 후 바로 `mp4` 조립 단계로 이어갈 수 있다.
+- 영상 조립 스크립트 위치는 `video_script`, 중간 작업 폴더는 `video_work`, 최종 출력 폴더는 `video_output`으로 분리하는 편이 구조상 명확하다.
