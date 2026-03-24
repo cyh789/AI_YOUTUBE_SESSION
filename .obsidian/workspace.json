@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "2e6a852fd723225b",
+        "id": "17088aeb9d0af4b7",
         "type": "tabs",
         "children": [
           {
-            "id": "701fd4e97122a027",
+            "id": "e78e16b35951851f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "draft-script-01.md",
+                "file": "scene-plan-01.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "draft-script-01"
+              "title": "scene-plan-01"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.5
+    "width": 310.5
   },
   "right": {
     "id": "d2a69c6401ae3c17",
@@ -183,24 +183,52 @@
       "bases:새 베이스 생성하기": false
     }
   },
-  "active": "1447aba21928dc32",
+  "active": "e78e16b35951851f",
   "lastOpenFiles": [
-    "benchmark-template.md",
-    "draft-script-01.md",
-    "003.md",
-    "002 - 복사본.md",
-    "002.md",
-    "001 - 복사본.md",
+    "gemini/gemini-image-generate.mjs",
+    "gemini",
+    "refer/003.md",
+    "refer/002.md",
+    "refer/001.md",
+    "refer",
+    "tts-plan-01.md",
+    "scene-plan-01.md",
     "001.md",
-    "benchmark-template - 복사본.md",
-    "새 폴더",
-    "tasks.md",
-    "file-based-planning-workflow.md",
-    "findings.md",
-    "planning-with-files.md",
-    "progress.md",
+    "draft-script-01.md",
+    "script/draft-script-01.md",
+    "script",
     "AGENTS.md",
+    "tts/scene-23-balance.txt",
+    "tts/scene-05-omega3-a.txt",
+    "tts/scene-24-cta.txt",
+    "tts/scene-20-summary.txt",
+    "tts/scene-03-intro.txt",
+    "tts/scene-10-vitamin-d-b.txt",
+    "output/scene-25-ending.png",
+    "output/supplement-thumbnail-test.png",
+    "output/scene-23-balance.png",
+    "output/scene-20-summary.png",
+    "output/scene-15-magnesium.png",
+    "output/scene-10-vitamin-d.png",
+    "output/scene-05-omega3.png",
+    "output/scene-01-hook.png",
+    "output/gemini-generated-20260324-133216.png",
+    "output/supplement-thumbnail-free-model.png",
+    "tasks.md",
+    "progress.md",
+    "findings.md",
     "CHATS.md",
-    "agents.md"
+    "002.md",
+    "node_modules/semver/README.md",
+    "node_modules/web-streams-polyfill/README.md",
+    "node_modules/protobufjs/README.md",
+    "node_modules/google-auth-library/README.md",
+    "node_modules/protobufjs/google/README.md",
+    "node_modules/node-fetch/README.md",
+    "node_modules/protobufjs/ext/descriptor/README.md",
+    "node_modules/protobufjs/ext/debug/README.md",
+    "node_modules/agent-base/README.md",
+    "node_modules/jws/CHANGELOG.md",
+    "node_modules/extend/README.md"
   ]
 }

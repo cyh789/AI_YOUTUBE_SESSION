@@ -1,0 +1,4 @@
+version: 1
+display_name: Project Scene TTS Builder
+short_description: output 이미지와 script 대본을 바탕으로 tts 텍스트 생성
+default_prompt: Output 폴더의 장면 이미지와 script 폴더의 한국어 유튜브 대본을 함께 참고해, 10~20분 영상 조립용 장면별 한국어 TTS 텍스트 파일을 tts 폴더 아래에 생성하세요.

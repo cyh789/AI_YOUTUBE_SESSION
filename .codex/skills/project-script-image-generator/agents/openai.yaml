@@ -1,0 +1,4 @@
+version: 1
+display_name: Project Script Image Generator
+short_description: script 대본을 바탕으로 output에 장면 이미지 생성
+default_prompt: Script 폴더 하위의 한국어 유튜브 대본을 읽고, 10~20분 영상용 장면 이미지를 만들기 위해 Gemini 스크립트를 사용해 output 폴더 아래 PNG 이미지를 생성하세요. 무료 모델이면 이미지 안에는 한글 텍스트를 넣지 마세요.

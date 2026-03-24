@@ -1,0 +1,4 @@
+version: 1
+display_name: Project Script Writer
+short_description: refer를 참고해 script에 한국어 유튜브 대본 생성
+default_prompt: Refer 폴더의 샘플 대본을 참고해 이 프로젝트용 한국어 유튜브 10~20분 대본을 작성하거나 수정하고, 결과를 script 폴더 아래에 저장하세요.

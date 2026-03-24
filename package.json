@@ -1,0 +1,12 @@
+{
+  "name": "workspace_ai_codex_260323",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "gemini:image": "node gemini/gemini-image-generate.mjs"
+  },
+  "dependencies": {
+    "@google/genai": "^1.46.0",
+    "sharp": "^0.34.5"
+  }
+}
