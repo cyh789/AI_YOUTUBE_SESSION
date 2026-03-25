@@ -183,8 +183,17 @@
       "bases:새 베이스 생성하기": false
     }
   },
-  "active": "1447aba21928dc32",
+  "active": "e78e16b35951851f",
   "lastOpenFiles": [
+    "tasks.md",
+    "progress.md",
+    "planning-with-files.md",
+    "file-based-planning-workflow.md",
+    "benchmark-template.md",
+    "CHATS.md",
+    "AGENTS.md",
+    "README.md",
+    "scene-plan-01.md",
     "video_output",
     "video_work",
     "video_script/assemble-video.ps1",
@@ -195,9 +204,7 @@
     "tts_audio/scene-15-magnesium-b.wav",
     "tts_audio/scene-15-magnesium-a.wav",
     "tts_audio/scene-10-vitamin-d-b.wav",
-    "tts_audio/scene-10-vitamin-d-a.wav",
     "draft-script-01.md",
-    "README.md",
     "003.md",
     "002.md",
     "001.md",
@@ -205,9 +212,7 @@
     "refer/002.md",
     "refer/001.md",
     "tts-plan-01.md",
-    "scene-plan-01.md",
     "script/draft-script-01.md",
-    "AGENTS.md",
     "output/scene-25-ending.png",
     "output/supplement-thumbnail-test.png",
     "output/scene-23-balance.png",
@@ -218,18 +223,13 @@
     "output/scene-01-hook.png",
     "output/gemini-generated-20260324-133216.png",
     "output/supplement-thumbnail-free-model.png",
-    "tasks.md",
-    "progress.md",
     "findings.md",
-    "CHATS.md",
     "node_modules/semver/README.md",
     "node_modules/web-streams-polyfill/README.md",
     "node_modules/protobufjs/README.md",
     "node_modules/google-auth-library/README.md",
     "node_modules/protobufjs/google/README.md",
     "node_modules/node-fetch/README.md",
-    "node_modules/protobufjs/ext/descriptor/README.md",
-    "node_modules/protobufjs/ext/debug/README.md",
-    "node_modules/agent-base/README.md"
+    "node_modules/protobufjs/ext/descriptor/README.md"
   ]
 }
