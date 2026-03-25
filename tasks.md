@@ -335,3 +335,18 @@ ChatGPT를 활용해 유튜브 동영상 제작 과정을 더 쉽게 만들 수 
 ## 2026-03-25 추가 결정: 표기 규칙
 
 - 특별한 코드 표기 필요가 없는 일반 문장에서는 백틱(`) 대신 작은따옴표(')를 우선 사용한다.
+
+## 2026-03-25 추가 작업: 40대 영양제 흐름 실행
+
+- [x] 'refer/001.md', 'refer/002.md', 'refer/003.md' 기준 참고 구조 분석
+- [x] 'script/draft-script-40s.md' 대본 작성
+- [x] 'scene-plan-40s.md' 장면 구성표 작성
+- [x] 'tts/40s' 하위 장면별 TTS 텍스트 생성
+- [x] 'output/40s' 하위 대표 장면 이미지 생성
+- [x] 'tts_audio/40s' 하위 TTS 오디오 생성
+- [x] 'video_script/assemble-video.ps1' 40대 버전 파일명 매핑 보강
+- [ ] 'video_output/40s/video-40s.mp4' 최종 조립
+
+### 현재 막힌 점
+
+- 'ffmpeg'와 'ffprobe'가 현재 환경에 없어 최종 mp4 조립 단계는 보류 상태다.

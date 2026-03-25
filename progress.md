@@ -684,3 +684,36 @@
 ### 메모
 
 - 이제 프로젝트는 '분석 -> 대본 -> 장면계획 -> 이미지 -> TTS텍스트 -> TTS오디오 -> 영상조립 -> 업로드점검' 흐름을 스킬 중심으로 설명할 수 있다.
+
+## 세션: 2026-03-25 추가 04
+
+### 작업 내용
+
+1. 사용자 요청에 따라 새 주제 '40대라면 반드시 먹어야 하는 영양제 3가지'를 기존 8단계 흐름으로 진행하기 시작했다.
+2. 'AGENTS.md', 'tasks.md', 'findings.md', 'progress.md'와 관련 스킬 정의를 다시 확인했다.
+3. 이미 준비되어 있던 'reference-analysis-40s.md', 'script/draft-script-40s.md', 'scene-plan-40s.md', 'tts/40s' 파일들을 점검했다.
+4. Gemini 무료 모델로 'output/40s' 하위 대표 장면 이미지 6장을 생성했다.
+5. 'tts_script/generate-tts.ps1'를 사용해 'tts/40s' 텍스트를 'tts_audio/40s' 오디오 13개로 변환했다.
+6. 'video_script/assemble-video.ps1'에 40대 버전 오디오 파일명 매핑을 추가했다.
+7. 'video_script/assemble-video.ps1 -PrintPlan'으로 새 주제용 조립 계획을 확인했다.
+8. 실제 영상 조립도 시도했지만 현재 환경에 'ffmpeg'와 'ffprobe'가 없어 mp4 생성은 보류됐다.
+9. 현재 상태를 'upload-checklist-40s.md'에 반영했다.
+
+### 완료 항목
+
+- 새 주제용 참고 구조 분석 완료
+- 새 주제용 대본 완료
+- 새 주제용 장면 구성표 완료
+- 새 주제용 대표 이미지 생성 완료
+- 새 주제용 TTS 텍스트와 오디오 생성 완료
+- 새 주제용 영상 조립 계획 확인 완료
+
+### 막힌 점
+
+- 'ffmpeg'와 'ffprobe' 미설치로 최종 mp4 생성 불가
+
+### 다음 단계
+
+1. 'ffmpeg' 설치
+2. 'video_script/assemble-video.ps1'로 'video_output/40s/video-40s.mp4' 생성
+3. 'project-upload-checker' 기준 업로드 전 점검 마무리

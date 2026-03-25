@@ -31,6 +31,17 @@ function Get-SceneImageMap {
         "scene-20-summary" = "scene-20-summary.png"
         "scene-23-balance" = "scene-23-balance.png"
         "scene-24-cta" = "scene-25-ending.png"
+        "scene-03-omega3-a" = "scene-05-omega3.png"
+        "scene-04-omega3-b" = "scene-05-omega3.png"
+        "scene-05-omega3-c" = "scene-05-omega3.png"
+        "scene-06-vitamind-a" = "scene-10-vitamin-d.png"
+        "scene-07-vitamind-b" = "scene-10-vitamin-d.png"
+        "scene-08-vitamind-c" = "scene-10-vitamin-d.png"
+        "scene-09-magnesium-a" = "scene-15-magnesium.png"
+        "scene-10-magnesium-b" = "scene-15-magnesium.png"
+        "scene-11-magnesium-c" = "scene-15-magnesium.png"
+        "scene-12-balance" = "scene-23-balance.png"
+        "scene-13-ending" = "scene-25-ending.png"
     }
 }
 

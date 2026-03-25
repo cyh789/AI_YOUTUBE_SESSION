@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "findings.md",
+                "file": "script/draft-script-01.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "findings"
+              "title": "draft-script-01"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "project-video",
+                "query": "30대",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -184,27 +184,38 @@
       "bases:새 베이스 생성하기": false
     }
   },
-  "active": "35da281e1a5b981e",
+  "active": "e78e16b35951851f",
   "lastOpenFiles": [
+    "upload-checklist-40s.md",
+    "video_output/40s",
+    "video_work/40s",
+    "tts_audio/40s/scene-13-ending.wav",
+    "tts_audio/40s/scene-12-balance.wav",
+    "tts_audio/40s/scene-11-magnesium-c.wav",
+    "tts_audio/40s/scene-10-magnesium-b.wav",
+    "tts_audio/40s/scene-09-magnesium-a.wav",
+    "tts_audio/40s/scene-08-vitamind-c.wav",
+    "tts_audio/40s/scene-07-vitamind-b.wav",
+    "tts_audio/40s/scene-06-vitamind-a.wav",
+    "output/40s/scene-25-ending.png",
+    "output/40s/scene-23-balance.png",
+    "output/40s/scene-15-magnesium.png",
+    "output/40s/scene-10-vitamin-d.png",
+    "output/40s/scene-05-omega3.png",
+    "output/40s/scene-01-hook.png",
+    "scene-plan-40s.md",
+    "script/draft-script-40s.md",
+    "reference-analysis-40s.md",
     "CHATS.md",
+    "progress.md",
+    "findings.md",
     "README.md",
     "scene-plan-01.md",
     "tasks.md",
-    "progress.md",
     "planning-with-files.md",
     "file-based-planning-workflow.md",
     "benchmark-template.md",
     "AGENTS.md",
-    "video_output",
-    "video_work",
-    "video_script/assemble-video.ps1",
-    "video_script",
-    "tts_audio/scene-24-cta.wav",
-    "tts_audio/scene-23-balance.wav",
-    "tts_audio/scene-20-summary.wav",
-    "tts_audio/scene-15-magnesium-b.wav",
-    "tts_audio/scene-15-magnesium-a.wav",
-    "tts_audio/scene-10-vitamin-d-b.wav",
     "draft-script-01.md",
     "003.md",
     "002.md",
@@ -218,19 +229,7 @@
     "output/supplement-thumbnail-test.png",
     "output/scene-23-balance.png",
     "output/scene-20-summary.png",
-    "output/scene-15-magnesium.png",
-    "output/scene-10-vitamin-d.png",
-    "output/scene-05-omega3.png",
-    "output/scene-01-hook.png",
-    "output/gemini-generated-20260324-133216.png",
-    "output/supplement-thumbnail-free-model.png",
-    "findings.md",
     "node_modules/semver/README.md",
-    "node_modules/web-streams-polyfill/README.md",
-    "node_modules/protobufjs/README.md",
-    "node_modules/google-auth-library/README.md",
-    "node_modules/protobufjs/google/README.md",
-    "node_modules/node-fetch/README.md",
-    "node_modules/protobufjs/ext/descriptor/README.md"
+    "node_modules/web-streams-polyfill/README.md"
   ]
 }
