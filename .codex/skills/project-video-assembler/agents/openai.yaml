@@ -1,0 +1,4 @@
+version: 1
+display_name: Project Video Assembler
+short_description: output 이미지와 tts_audio를 묶어 영상 조립
+default_prompt: Output 폴더의 이미지와 tts_audio 폴더의 오디오를 확인하고, video_script의 조립 스크립트를 사용해 최종 mp4 영상을 video_output 폴더에 생성하세요.

@@ -1,0 +1,4 @@
+version: 1
+display_name: Project Scene Planner
+short_description: script 대본을 장면 구성표로 변환
+default_prompt: Script 폴더 하위의 한국어 유튜브 대본을 읽고, 10~20분 영상용 장면 구성표를 만들어 scene-plan 파일로 정리하세요.

@@ -1,0 +1,4 @@
+version: 1
+display_name: Project Upload Checker
+short_description: 업로드 전 제목 설명 썸네일 자막 점검
+default_prompt: 최종 영상 업로드 전에 video_output, output, 관련 문서를 확인하고 제목, 설명문, 썸네일, 자동 자막 검수 포인트를 체크리스트로 정리하세요.

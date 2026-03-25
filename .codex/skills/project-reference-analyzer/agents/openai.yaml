@@ -1,0 +1,4 @@
+version: 1
+display_name: Project Reference Analyzer
+short_description: refer 샘플 대본 구조 분석
+default_prompt: Refer 폴더 하위 샘플 대본을 읽고, 공통 훅과 전개 구조, 설명 방식, 마무리 패턴을 분석해 현재 프로젝트의 대본 작성에 바로 쓸 수 있는 메모로 정리하세요.

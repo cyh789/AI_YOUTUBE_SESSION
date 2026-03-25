@@ -552,3 +552,20 @@
 
 - 사용자 표기 선호에 따라 일반 설명 문장에서는 백틱보다 작은따옴표를 우선 사용하는 규칙을 추가했다.
 - 코드, 경로, 명령어처럼 구분이 꼭 필요한 경우에만 예외적으로 다른 표기를 쓴다.
+### 2026-03-25 추가 발견 54
+
+- 현재 '.codex/skills' 아래 실제 구현된 프로젝트 스킬은 3개다.
+  - 'project-script-writer'
+  - 'project-script-image-generator'
+  - 'project-scene-tts-builder'
+- 제안했던 추가 4개 중 'project-reference-analyzer', 'project-scene-planner', 'project-video-assembler', 'project-upload-checker'는 아직 스킬 폴더 기준으로는 미구현 상태다.
+- 다만 'TTS오디오'와 '영상조립' 단계는 각각 'tts_script', 'video_script'의 스크립트로는 일부 구현되어 있다.
+### 2026-03-25 추가 발견 55
+
+- 미구현 상태였던 추가 4개 스킬을 기존 3개와 같은 구조로 구현했다.
+- 새로 추가된 스킬은 다음과 같다.
+  - 'project-reference-analyzer'
+  - 'project-scene-planner'
+  - 'project-video-assembler'
+  - 'project-upload-checker'
+- 이제 프로젝트 파이프라인은 분석부터 업로드 점검까지 스킬 단위로 거의 전부 연결된 상태다.
